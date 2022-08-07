@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url(imagenes/fotofondo.jpg);
+  background-image: url(/imagenes/fotofondo.jpg);
 }
 
 header {
@@ -31,6 +31,8 @@ h1 {
   font-size: 4rem;
   font-style: oblique;
   text-align: center;
+  font-weight: bold;
+
 
 }
 
@@ -104,7 +106,7 @@ footer {
 }
 
 .colorParrafo {
-  color: rgb(30, 66, 8);
+  color: rgb(189, 216, 93);
 
 }
 
@@ -134,18 +136,19 @@ footer {
 .espacio {
   margin: 0 10px;
 }
-
-.contenedor1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.fotosAlineadas {
+  display: grid;
+  column-gap: 500px;
 }
+.contenedor1 {
+  grid-column: 1;
+  grid-row: 1;
+  }
 
 .contenedor2 {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-}
+  grid-column: 3;
+  grid-row: 3;
+  }
 
 .marcasAlineadas {
   display: grid;
@@ -176,7 +179,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(215, 230, 173);
   }
 
   .contenedor1 {
