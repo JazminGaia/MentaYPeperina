@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url(/imagenes/fotofondo.jpg);
+  background-image: url('../imagenes/fotofondo.jpg');
 }
 
 header {
@@ -154,7 +154,7 @@ footer {
 
 .fotosAlineadas {
   display: grid;
-  column-gap: 500px;
+  column-gap: 600px;
 }
 
 .contenedor1 {
