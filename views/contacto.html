@@ -10,7 +10,7 @@
     <title>contacto - menta y peperina</title>
 </head>
 
-<body>
+<body class="textoCentrado">
     <header>
         <img class="logo" src="../imagenes/logito.png" alt="logo">
         <ul>
@@ -23,35 +23,40 @@
     </header>
     <main>
         <h1 class="titulo">CONTACTO</h1>
-        <p class="subtitulos">
+        <p class="subtitulos textoCentrado">
             Si tienes cualquier duda, sugerencia o propuesta, no dudes en escribirnos y contárnos todo!
             Podes ponerte en contacto con nosotros a través del siguiente formulario, o escribirnos a @mentaypeperinaok.
             Te contestaremos en cuánto me sea posible, muchas gracias de antemano.
         </p>
-        <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+        <form class="formulario" action="http://jkorpela.fi/cgi-bin/echo.cgi">
             <h3 class="ColorNegro">Formulario de contacto</h3>
-            <label for="firstname">Nombre:</label>
-            <input type="text" id="firstname" name="nombre">
-            <label for="Coment">Comentario</label>
-            <textarea name="" id="" cols="20" rows="10"></textarea>
-            <button type="submit">Enviar</button>
+            <label class="labelForm" for="firstname">Nombre:</label>
+            <input required type="text" id="firstname" name="nombre">
+            <label class="labelForm" for="email">Mail:</label>
+            <input required type="email" id="email" name="email">
+            <label class="labelForm" for="coment">Comentario</label>
+            <textarea required name="comentario" id="coment" cols="40" rows="10"></textarea>
+            <button class="botonEnviar" type="submit">Enviar</button>
         </form>
     </main>
-    <p class="negrita">¿Donde nos encontramos?</p>
-    <p>DIRECCION</p>
-    <p class="colorParrafo">Av. Santa Fe 928 </p>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.2716407816469!2d-58.38069251906709!3d-34.5954048997238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab7b25d3d97%3A0x9a8af7239625da40!2sAv.%20Santa%20Fe%20928%2C%20C1059ABQ%20CABA!5e0!3m2!1ses-419!2sar!4v1657587737693!5m2!1ses-419!2sar"
-        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+    <div class="maps">
+        <div class="direccion">
+            <p class="negrita colorParrafo textoCentrado">¿Donde nos encontramos?</p>
+            <p class="negrita textoCentrado">DIRECCION: Av. Santa Fe 928 </p>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.2716407816469!2d-58.38069251906709!3d-34.5954048997238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab7b25d3d97%3A0x9a8af7239625da40!2sAv.%20Santa%20Fe%20928%2C%20C1059ABQ%20CABA!5e0!3m2!1ses-419!2sar!4v1657587737693!5m2!1ses-419!2sar"
+            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
     <a
-        href="https://www.google.com.ar/maps/search/Av.+Santa+Fe+1010,+ABQ,+CABA/@-34.5944152,-58.3861278,16z/data=!3m1!4b1">GOOGLE
-        MAPS</a>
+        href="https://www.google.com.ar/maps/search/Av.+Santa+Fe+1010,+ABQ,+CABA/@-34.5944152,-58.3861278,16z/data=!3m1!4b1">
+        GOOGLE MAPS
+    </a>
+    <footer>
+        <span>Nuestro Instagram:<a href="https://www.instagram.com/mentaypeperinaok"> MENTA Y PEPERINA</a> </span>
+    </footer>
 </body>
-<br>
-<footer>
-    <span>Nuestro Instagram:<a href="https://www.instagram.com/mentaypeperinaok"> MENTA Y PEPERINA</a> </span>
-</footer>
 
 </html>
