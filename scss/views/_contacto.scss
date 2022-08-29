@@ -1,0 +1,55 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.labelForm {
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.botonEnviar {
+    box-shadow: 0px 1px 0px 0px #3dc21b;
+    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    background-color: #44c767;
+    border-radius: 15px;
+    border: 2px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+
+
+    &:hover {
+        background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+        background-color: #5cbf2a;
+     }
+
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direccion {
+    background-color: rgb(240, 240, 240);
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}

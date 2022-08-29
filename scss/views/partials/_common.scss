@@ -1,0 +1,155 @@
+html {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: url('../imagenes/fotofondo.jpg');
+}
+
+h1 {
+    font-size: 4rem;
+    font-style: oblique;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(136, 233, 10);
+    font-style: serif;
+    font-size: 2rem;
+    border: rgba(141, 190, 28, 0.199) 5px solid;
+
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-style: serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size: 1.5rem;
+    font-style: serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Clases en comun*/
+.subtitulos {
+    font-weight: 100;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.espacio {
+    margin: 0 10px;
+
+    &:hover {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}
+
+.titulo {
+    background-color: none;
+
+
+    &:hover {
+        color: rgb(7, 75, 18);
+        transition: color;
+        transition-timing-function: linear;
+    }
+}
+
+/*clases*/
+
+.contenidoPrincipal {
+    margin: 0 40px;
+    min-height: 100vh;
+}
+
+.colorParrafo {
+    color: rgb(189, 216, 93);
+
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.borde {
+    border: rgba(141, 190, 28, 0.199) 5px solid;
+}
+
+
+.negrita {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.espacio {
+    margin: 0 10px;
+}
+
+.ColorNegro {
+    color: black;
+}
+
+
+/* query */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(215, 230, 173);
+    }
+
+    .contenedor1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        font-style: oblique;
+        text-align: center;
+
+    }
+
+    p {
+        font-size: 1.4rem;
+        font-style: serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .colorParrafo {
+        color: rgb(168, 184, 26);
+
+    }
+
+    .marcasAlineadas {
+        display: flex;
+        flex-direction: column;
+    }
+}

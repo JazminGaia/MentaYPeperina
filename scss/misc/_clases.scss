@@ -1,0 +1,211 @@
+h1 {
+  font-size: 4rem;
+  font-style: oblique;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  color: rgb(136, 233, 10);
+  font-style: serif;
+  font-size: 2rem;
+  border: rgba(141, 190, 28, 0.199) 5px solid;
+
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-style: serif;
+
+}
+
+p {
+  font-size: 1.5rem;
+  font-style: serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.ig {
+    color: #0c3b06;
+    font-style: serif; }
+  
+  .subtitulos {
+    font-weight: 100;
+    width: 100%;
+    margin-bottom: 50px; }
+  
+  .listaRecetas {
+    color: black; }
+  
+  .listado {
+    min-height: 100vh; }
+  
+  .listaRecetas:hover {
+    color: rgba(212, 162, 22, 0.877);
+    transition: color;
+    transition-timing-function: linear;
+    background-image: url("../imagenes/tAHXsh.jpg"); }
+  
+  .titulo {
+    background-color: none; }
+    .titulo:hover {
+      color: #074b12;
+      transition: color;
+      transition-timing-function: linear; }
+  
+  .foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    border: 5px solid rgba(168, 209, 21, 0.233); }
+  
+  .fotoMarca {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    border: 5px solid white; }
+  
+  .colorParrafo {
+    color: #bdd85d; }
+  
+  .textRight {
+    text-align: right; }
+  
+  .textoCentrado {
+    text-align: center; }
+  
+  .borde {
+    border: rgba(141, 190, 28, 0.199) 5px solid; }
+  
+  .logo {
+    position: absolute;
+    left: 0;
+    width: 60px; }
+  
+  .negrita {
+    font-weight: bold;
+    font-size: 1.5rem; }
+  
+  .espacio {
+    margin: 0 10px; }
+    .espacioseleccionado {
+      background-color: #c8ff00;
+      font-weight: 400; }
+    .espacio:hover {
+      text-decoration: underline;
+      font-weight: 600; }
+  
+  .contenidoPrincipal {
+    margin: 0 40px;
+    min-height: 100vh; }
+  
+  .contenedor1 {
+    display: flex;
+    align-items: center; }
+  
+  .contenedor2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; }
+  
+  .marcasAlineadas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto); }
+  
+  .marcaVegetalex {
+    grid-column: 3;
+    grid-row: 4; }
+  
+  .marcaGreenLife {
+    grid-column: 3;
+    grid-row: 2; }
+  
+  .marcaVivet {
+    grid-column: -4;
+    grid-row: 4; }
+  
+  .marcaVeggieland {
+    grid-column: -4;
+    grid-row: 2; }
+  
+  .ColorNegro {
+    color: black; }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px; }
+  
+  .labelForm {
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 10px 0; }
+  
+  .botonEnviar {
+    box-shadow: 0px 1px 0px 0px #3dc21b;
+    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    background-color: #44c767;
+    border-radius: 15px;
+    border: 2px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627; }
+  
+  .botonEnviar:hover {
+    background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+    background-color: #5cbf2a; }
+  
+  .botonEnviar:active {
+    position: relative;
+    top: 1px; }
+  
+  .maps {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  
+  .direccion {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    width: 300px; }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: #d7e6ad; }
+    .contenedor1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .contenedor2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    ul {
+      font-size: 0.8rem; }
+    h1 {
+      font-size: 3.5rem;
+      font-style: oblique;
+      text-align: center; }
+    p {
+      font-size: 1.4rem;
+      font-style: serif;
+      font-weight: 300;
+      text-align: center; }
+    .colorParrafo {
+      color: #a8b81a; }
+    .marcasAlineadas {
+      display: flex;
+      flex-direction: column; } }
+  

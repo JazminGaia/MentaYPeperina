@@ -1,0 +1,13 @@
+.listaRecetas {
+    color: black;
+    display: flex;
+    justify-content: center ;
+  
+  
+  &:hover {
+    color: rgba(212, 162, 22, 0.877);
+    transition: color;
+    transition-timing-function: linear;
+    background-image: url('../imagenes/tAHXsh.jpg');
+  }
+}
