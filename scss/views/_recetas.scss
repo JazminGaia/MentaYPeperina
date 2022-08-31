@@ -1,13 +1,15 @@
-.listaRecetas {
-    color: black;
-    display: flex;
-    justify-content: center ;
-  
-  
+.botonHover {
   &:hover {
     color: rgba(212, 162, 22, 0.877);
     transition: color;
     transition-timing-function: linear;
     background-image: url('../imagenes/tAHXsh.jpg');
+    
   }
 }
+.listaRecetas {
+    color: black;
+    display: flex;
+    justify-content: center;
+    @extend .botonHover;
+  }

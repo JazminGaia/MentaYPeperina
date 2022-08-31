@@ -1,0 +1,8 @@
+@mixin hover-effect {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #d5e784;
+    -webkit-box-shadow: 0px 0px 15px 15px #c6dda7;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}

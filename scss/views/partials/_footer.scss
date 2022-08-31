@@ -2,6 +2,9 @@ footer {
     background: rgb(149, 219, 121);
     background: radial-gradient(circle, rgba(149, 219, 121, 1) 0%, rgba(130, 177, 68, 0.904) 100%);
     text-align: center;
+    position: absolute;
+    bottom:0;
+    width: 100%;
   }
   
   .ig {
