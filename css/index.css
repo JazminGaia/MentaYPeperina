@@ -118,7 +118,9 @@ header {
   margin: 0;
   margin-top: 20px;
   text-align: right;
-  line-height: 35px; }
+  line-height: 35px;
+  max-width: 1400px;
+  margin: 0 auto; }
   header ul {
     font-size: 1.3rem; }
   header li {
@@ -132,7 +134,7 @@ header {
 .logo {
   position: absolute;
   left: 0;
-  width: 60px; }
+  width: 80px; }
 
 /* query */
 @media only screen and (max-width: 600px) {
@@ -140,12 +142,13 @@ header {
     font-size: 0.8rem; } }
 
 footer {
+  margin: 0;
   background: #95db79;
   background: radial-gradient(circle, #95db79 0%, rgba(130, 177, 68, 0.904) 100%);
   text-align: center;
-  position: absolute;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  position: fixed; }
 
 .ig {
   color: #0c3b06;
@@ -191,19 +194,24 @@ p {
   margin-bottom: 50px; }
 
 .espacio {
-  margin: 0 10px; }
+  margin: 0 10px;
+  padding: 10px; }
   .espacio:hover {
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 600; }
 
+.espacioseleccionado {
+  background-color: #c8ff00;
+  font-weight: 400; }
+
 .titulo {
-  background-color: none; }
+  background-color: none;
+  padding: 0 0 40px; }
   .titulo:hover {
     color: #074b12;
     transition: color;
     transition-timing-function: linear; }
 
-/*clases*/
 .contenidoPrincipal {
   margin: 0 40px;
   min-height: 100vh; }
@@ -215,7 +223,8 @@ p {
   text-align: right; }
 
 .textoCentrado {
-  text-align: center; }
+  text-align: center;
+  padding: 30px; }
 
 .borde {
   border: rgba(141, 190, 28, 0.199) 5px solid; }
@@ -224,11 +233,14 @@ p {
   font-weight: bold;
   font-size: 1.5rem; }
 
-.espacio {
-  margin: 0 10px; }
-
 .ColorNegro {
   color: black; }
+
+.bodyCentrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 50px; }
 
 /* query */
 @media only screen and (max-width: 600px) {
@@ -356,16 +368,41 @@ p {
   padding: 10px;
   width: 300px; }
 
-.botonHover:hover, .listaRecetas:hover {
-  color: rgba(212, 162, 22, 0.877);
+.botonHover:hover, .listaRecetas:hover, .vegana:hover, .sopas:hover, .pastas:hover, .tartas:hover, .ensaladas:hover, .noCarne:hover {
+  color: white;
   transition: color;
   transition-timing-function: linear;
   background-image: url("../imagenes/tAHXsh.jpg"); }
 
 .listaRecetas {
   color: black;
+  padding: 40px 0;
   display: flex;
   justify-content: center; }
+
+.listado {
+  padding: 30px 0; }
+
+.vegana:hover {
+  background-image: url("../imagenes/fondovegan.jpg"); }
+
+.sopas:hover {
+  background-image: url("../imagenes/sopas-invierno-destacadas-.jpg"); }
+
+.pastas:hover {
+  background-image: url("../imagenes/Tomatoes_Pasta_Fork_Plate_544330_1920x1080.jpg"); }
+
+.tartas:hover {
+  background-image: url("../imagenes/4d9620dd-tarta-de-espinaca-y-ricota-a-base-de-papa_l_es_thumb.png"); }
+
+.ensaladas:hover {
+  background-image: url("../imagenes/Salad-banner.jpg"); }
+
+.noCarne:hover {
+  background-image: url("../imagenes/no carne.jpg"); }
+
+.gif {
+  padding: 5%; }
 
 .marcasAlineadas {
   display: grid;

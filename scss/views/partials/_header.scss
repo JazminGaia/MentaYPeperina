@@ -4,6 +4,8 @@ header {
   margin-top: 20px;
   text-align: right;
   line-height: 35px;
+  max-width: 1400px;
+  margin: 0 auto;
 
   ul {
     font-size: 1.3rem;
@@ -22,9 +24,9 @@ header {
 }
 
 .logo {
-  position: absolute;
+  position:absolute;
   left: 0;
-  width: 60px
+  width: 80px
 }
 
 /* query */

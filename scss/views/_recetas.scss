@@ -1,15 +1,70 @@
 .botonHover {
   &:hover {
-    color: rgba(212, 162, 22, 0.877);
+    color: rgb(255, 255, 255);
     transition: color;
     transition-timing-function: linear;
     background-image: url('../imagenes/tAHXsh.jpg');
-    
+
   }
 }
+
 .listaRecetas {
-    color: black;
-    display: flex;
-    justify-content: center;
-    @extend .botonHover;
+  color: black;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  @extend .botonHover;
+}
+
+.listado {
+  padding: 30px 0;
+
+}
+
+.vegana {
+  @extend .botonHover;
+
+  &:hover {
+    background-image: url('../imagenes/fondovegan.jpg');
   }
+}
+
+.sopas {
+  @extend .botonHover;
+
+  &:hover {
+    background-image: url('../imagenes/sopas-invierno-destacadas-.jpg');
+  }
+}
+
+.pastas {
+  @extend .botonHover;
+
+  &:hover {
+    background-image: url('../imagenes/Tomatoes_Pasta_Fork_Plate_544330_1920x1080.jpg');
+  }
+}
+
+.tartas {
+  @extend .botonHover;
+
+  &:hover {
+    background-image: url('../imagenes/4d9620dd-tarta-de-espinaca-y-ricota-a-base-de-papa_l_es_thumb.png');
+  }
+}
+
+.ensaladas {
+  @extend .botonHover;
+
+  &:hover {
+    background-image: url('../imagenes/Salad-banner.jpg');
+  }
+}
+
+.noCarne {
+  @extend .botonHover;
+
+  &:hover {
+    background-image: url('../imagenes/no carne.jpg');
+  }
+}
