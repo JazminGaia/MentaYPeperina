@@ -137,9 +137,12 @@ header {
   width: 80px; }
 
 /* query */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   header ul {
-    font-size: 0.8rem; } }
+    font-size: 0.6rem;
+    font-weight: bold; }
+  header .navbar-brand {
+    width: 50px; } }
 
 footer {
   margin: 0;
