@@ -131,6 +131,7 @@ header {
     text-decoration: none;
     color: inherit; }
 
+/* clases */
 .logo {
   position: absolute;
   left: 0;
@@ -144,6 +145,13 @@ header {
   header .navbar-brand {
     width: 50px; } }
 
+@media only screen and (max-width: 430px) {
+  header ul {
+    font-size: 0.6rem;
+    font-weight: bold; }
+  header .navbar-brand {
+    width: 30px; } }
+
 footer {
   margin: 0;
   background: #95db79;
@@ -153,6 +161,7 @@ footer {
   width: 100%;
   position: fixed; }
 
+/*clases*/
 .ig {
   color: #0c3b06;
   font-style: serif; }
@@ -270,6 +279,7 @@ p {
     flex-direction: column; } }
 
 /* views */
+/* clases */
 .contenedor1 {
   display: flex;
   align-items: center; }
@@ -326,6 +336,7 @@ p {
       transition: color;
       transition-timing-function: linear; } }
 
+/*clases*/
 .formulario {
   display: flex;
   flex-direction: column;
@@ -371,6 +382,7 @@ p {
   padding: 10px;
   width: 300px; }
 
+/*clases de recetas*/
 .botonHover:hover, .listaRecetas:hover, .vegana:hover, .sopas:hover, .pastas:hover, .tartas:hover, .ensaladas:hover, .noCarne:hover {
   color: white;
   transition: color;
@@ -407,6 +419,12 @@ p {
 .gif {
   padding: 5%; }
 
+/* query */
+@media only screen and (max-width: 600px) {
+  p {
+    color: white; } }
+
+/*clases de marcas*/
 .marcasAlineadas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

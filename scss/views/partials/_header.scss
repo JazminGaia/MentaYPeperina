@@ -22,7 +22,7 @@ header {
     color: inherit;
   }
 }
-
+/* clases */
 .logo {
   position: absolute;
   left: 0;
@@ -42,6 +42,21 @@ header {
 
     .navbar-brand {
        width: 50px
+    }
+  }
+
+}
+@media only screen and (max-width: 430px) {
+  header {
+
+    ul {
+      font-size: 0.6rem;
+      font-weight: bold;
+
+    }
+
+    .navbar-brand {
+       width: 30px
     }
   }
 
